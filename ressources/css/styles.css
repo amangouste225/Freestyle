@@ -1,0 +1,133 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.navbar-expand-lg {
+  z-index: 99;
+}
+
+.nav-item {
+  margin: 0px 75px;
+  font-weight: bold;
+}
+
+.nav-item a:link {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.down-but {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 12px;
+  background: linear-gradient(to right, #b32c6b, #fc65ac);
+  display: block;
+}
+
+.down-but:hover {
+  color: rgb(0, 26, 255);
+  background-color: rgb(255, 255, 255);
+}
+#carouselExampleCaptions {
+  position: relative;
+  text-align: right;
+  margin-top: -100px;
+  z-index: 0;
+}
+
+.social-icon li {
+  list-style: none;
+}
+.talk-show {
+  text-align: left;
+  border: 0px solid rgb(74, 14, 64);
+  background: linear-gradient(to right, #b32c6b, #fc65ac);
+  padding: 4px 5px;
+  width: 350px;
+}
+.slider-title {
+  text-align: left;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 1em;
+}
+
+.text-desc {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.text-title {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.d-block .w-100 {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1.7));
+}
+
+.brands {
+  font-size: 30px;
+  padding: 2px;
+  color: white;
+  position: relative;
+  left: 10px;
+}
+
+.slido {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 305;
+}
+
+#footer {
+  padding-top: 40px;
+  background-color: black;
+  height: 350px;
+  position: relative;
+  bottom: 0;
+}
+
+.col h3 {
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  letter-spacing: -1px;
+}
+
+.menu-foot li {
+  list-style: none;
+  color: white;
+  position: relative;
+  display: block;
+  right: 30px;
+  font-weight: 200;
+  padding: 2px 0;
+}
+
+.footer-m {
+  display: inline;
+}
+
+.navbar {
+  max-width: 1340px;
+}
+
+.footer-sign {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 200;
+  margin: 50px auto;
+}
